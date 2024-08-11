@@ -160,14 +160,21 @@
     z-index: 2;
 }
 
+.image-circle {
+    width: 100%; /* Gambar memenuhi lebar kontainer */
+    max-width: 500px; /* Maksimal lebar gambar */
+    height: auto; /* Tinggi diatur secara otomatis berdasarkan lebar */
+    aspect-ratio: 1 / 1; /* Membuat container berbentuk persegi dengan rasio 1:1 */
+    margin: 0 auto; /* Center gambar */
+    margin-bottom: 20px;
+}
+
 .image-circle img {
-    width: 500px; 
-    height: 550px; 
-    border-radius: 50%; 
+    width: 100%; /* Gambar menyesuaikan dengan lebar container */
+    height: 100%; /* Gambar menyesuaikan dengan tinggi container */
+    object-fit: cover; /* Gambar tetap cover di dalam container */
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
     border: 5px solid white;
-    display: block;
-    margin: 0 auto; 
-    object-fit: cover;
 }
 
 .timeline {
