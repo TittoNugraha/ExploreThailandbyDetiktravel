@@ -1,3 +1,4 @@
+/* Main Page */
 /* Floating Header */
 .detiktravel-header {
     position: fixed;
@@ -5,90 +6,89 @@
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
-    max-width: 1200px; /* Atur lebar maksimum jika diperlukan */
-    z-index: 1000; /* Memastikan header berada di atas konten lainnya */
-    background: rgba(255, 255, 255, 0.8); /* Background putih semi-transparan */
-    backdrop-filter: blur(10px); /* Efek buram pada background */
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan agar header terlihat lebih menonjol */
-    transition: background-color 0.3s ease-in-out; /* Efek transisi untuk perubahan warna latar belakang */
+    max-width: 1200px; 
+    z-index: 1000; 
+    background: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease-in-out; 
     border-radius: 20px;
 }
 
-/* Additional styling for the header */
 .detiktravel-header .navbar {
-    padding: 10px 20px; /* Padding untuk membuat header lebih tinggi */
+    padding: 10px 20px; 
 }
 
 .detiktravel-header .navbar-nav .nav-link {
-    margin-left: 15px; /* Spacing between the nav items */
+    margin-left: 15px; 
     font-weight: 500;
-    color: #333; /* Default color for nav links */
+    color: #333; 
 }
 
 .detiktravel-header .navbar-nav .nav-link:hover {
-    color: #007bff; /* Change color on hover */
+    color: #007bff; 
 }
 
 .navbar-nav {
     display: flex;
     align-items: center;
-    margin-left: auto; /* Ini akan membuat item di dalam navbar berada di sebelah kanan */
+    margin-left: auto; 
     flex-direction: column;
     align-items: flex-start
 }
 
-/* Update untuk tombol Registrasi */
+/* Registration Button */
 .navbar-nav .btn-primary {
     margin-left: 15px;
     padding: 5px 15px;
-    border-radius: 20px; /* Rounded button */
-    background-color: #ffc107; /* Warna kuning */
+    border-radius: 20px; 
+    background-color: #ffc107; 
     border: none;
-    color: white; /* Warna teks putih */
-    transition: background-color 0.3s ease-in-out; /* Efek transisi untuk hover */
+    color: white; 
+    transition: background-color 0.3s ease-in-out; 
 }
 
 .navbar-nav {
-    margin-left: auto; /* Mengatur agar navbar berada di sebelah kanan */
+    margin-left: auto; 
 }
 
 .navbar-toggler {
-    z-index: 1100; /* Pastikan lebih tinggi dari elemen lain */
+    z-index: 1100; 
     cursor: pointer;
 }
 
 .collapse.navbar-collapse {
-    z-index: 1000; /* Setel z-index lebih rendah dari tombol */
+    z-index: 1000; 
 }
 
 .detik-text {
-    color: #007bff; /* Warna biru untuk "detik" */
-    font-weight: bold; /* Opsional: membuat teks tebal */
+    color: #007bff; 
+    font-weight: bold; 
     font-size: larger;
 }
 
 .travel-text {
-    color: #ffc107; /* Warna kuning untuk "travel" */
-    font-weight: bold; /* Opsional: membuat teks tebal */
+    color: #ffc107; 
+    font-weight: bold; 
     font-size: larger;
 }
 
 .btn-warning {
-    background-color: #ffc107; /* Warna yang sama untuk semua tombol */
-    border-color: #ffc107; /* Border yang sama */
-    color: #fff; /* Warna teks putih */
-    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transition */
+    background-color: #ffc107; 
+    border-color: #ffc107; 
+    color: #fff; 
+    transition: background-color 0.3s ease, border-color 0.3s ease; 
     border-radius: 20px;
 }
 
 /* Hover effect for "Tentang Program" and "Daftar Sekarang" buttons */
 .btn-warning:hover {
-    background-color: #d35400; /* Warna oranye gelap */
-    border-color: #d35400; /* Sesuaikan dengan warna latar */
-    color: #fff; /* Warna teks putih */
+    background-color: #d35400; 
+    border-color: #d35400; 
+    color: #fff; 
 }
 
-/* Custom Styles */
+/* Hero Section */
 .hero {
     background: url('assets/pantai5.jpg') no-repeat center center;
     background-size: cover;
@@ -104,7 +104,7 @@
     font-size: 1.5rem;
 }
 
-/* Swiper */
+/* Swiper Section */
 .swiper-container {
     max-width: 40%;
 }
@@ -114,8 +114,8 @@
 }
 
 .swiper-section {
-    background-color: #00a8f3; /* Ganti dengan warna latar belakang yang sesuai */
-    padding: 2rem 0; /* Menambahkan padding agar lebih estetik */
+    background-color: #00a8f3; 
+    padding: 2rem 0; 
 }
 
 .swiper-slide {
@@ -151,7 +151,7 @@
     width: 100%;
     height: 100%;
     background-color: #00a8f3;
-    opacity: 0.95; /* Adjust opacity as needed */
+    opacity: 0.95; 
     z-index: -1;
 }
 
@@ -161,19 +161,19 @@
 }
 
 .image-circle img {
-    width: 500px; /* Ubah ukuran sesuai keinginan, misalnya 200px */
-    height: 550px; /* Ubah ukuran sesuai keinginan, misalnya 200px */
-    border-radius: 50%; /* Tetap membuat gambar menjadi lingkaran */
+    width: 500px; 
+    height: 550px; 
+    border-radius: 50%; 
     border: 5px solid white;
     display: block;
-    margin: 0 auto; /* Untuk menempatkan gambar di tengah */
+    margin: 0 auto; 
     object-fit: cover;
 }
 
 .timeline {
     list-style: none;
     padding-left: 0;
-    margin-top: 20px; /* Optional: Adjust the margin above the timeline */
+    margin-top: 20px; 
 }
 
 .timeline li {
@@ -202,13 +202,13 @@
 }
 
 .timeline .timeline-date {
-    color: #ffc107; /* Warna kuning untuk tanggal */
+    color: #ffc107; 
     font-weight: bold;
 }
 
 /* Detiktravel Update Section */
 .detiktravel-update {
-    background-color: #f0f8ff; /* Warna latar belakang putih kebiruan */
+    background-color: #f0f8ff; 
 }
 
 .text-orange {
@@ -233,14 +233,23 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: white; /* White background */
-    opacity: 0.95; /* Adjust opacity as needed */
+    background-color: white; 
+    opacity: 0.95; 
     z-index: -1;
 }
 
 #detiktravel-update .container {
     position: relative;
     z-index: 2;
+}
+
+.detiktravel-update .btn-primary {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.detiktravel-update .btn-primary:hover {
+    background-color: #ffc107; 
+    color: #fff; 
 }
 
 .main-update {
@@ -252,7 +261,7 @@
 }
 
 .main-update img {
-    border-radius: 15px; /* Rounded corners for the image */
+    border-radius: 15px; 
 }
 
 .main-update-text {
@@ -263,7 +272,7 @@
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #007bff 100%);
     color: #fff;
     padding: 15px;
-    border-radius: 0 0 15px 15px; /* Rounded bottom corners */
+    border-radius: 0 0 15px 15px; 
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -277,7 +286,7 @@
 }
 
 .main-update-text p {
-    font-size: 0.9rem; /* Sesuaikan ukuran font deskripsi */
+    font-size: 0.9rem; 
 }
 
 .main-update-text .timestamp {
@@ -290,7 +299,7 @@
 
 .text-center {
     text-align: center;
-    margin-top: 20px; /* Memberikan jarak antara side updates dan tombol */
+    margin-top: 20px; 
 }
 
 .side-updates .side-update {
@@ -302,7 +311,7 @@
 .side-updates .side-update img {
     width: 100px;
     margin-right: 10px;
-    border-radius: 10px; /* Membuat gambar di samping sedikit melengkung di sudut */
+    border-radius: 10px; 
 }
 
 .side-updates .side-update h5 {
@@ -320,12 +329,10 @@
 .side-updates .side-update .update-time {
     color: gray;
     font-size: 14px;
-    margin-top: 0; /* Tambahkan margin-top untuk menyesuaikan jarak */
+    margin-top: 0; 
 }
 
 /* Hover Effects */
-
-/* Zoom effect for images on hover */
 .main-update img,
 .side-updates .side-update img {
     transition: transform 0.3s ease-in-out;
@@ -336,41 +343,13 @@
     transform: scale(1.1);
 }
 
-/* Change text color on hover for main update */
 h4, h5 {
     transition: color 0.3s ease-in-out;
 }
 
 .main-update-text:hover h4,
 .side-updates .side-update:hover h5 {
-    color: #00a8f3; /* Atau #007bff tergantung preferensi */
-}
-
-/* Change button color on hover */
-.detiktravel-update .btn-primary {
-    transition: background-color 0.3s ease-in-out;
-}
-
-.detiktravel-update .btn-primary:hover {
-    background-color: #ffc107; /* Warna kuning */
-    color: #fff; /* Warna teks putih */
-}
-
-/* Halaman Registrasi */
-/* Styling for 'Kembali ke Halaman Utama' button */
-.navbar-nav .btn-kembali {
-    margin-left: 15px;
-    padding: 5px 15px;
-    border-radius: 20px;
-    background-color: #ffc107; /* Warna tombol kuning */
-    color: #fff;
-    transition: background-color 0.3s ease-in-out;
-}
-
-/* Hover effect for 'Kembali ke Halaman Utama' button */
-.navbar-nav .btn-kembali:hover {
-    background-color: #ff9800; /* Warna tombol saat di-hover oranye gelap */
-    color: #fff;
+    color: #00a8f3; 
 }
 
 body {
@@ -389,6 +368,7 @@ img {
     text-align: center;
 }
 
+/* Registration Page */
 #registration {
     background-color: #ffffff;
     border-radius: 15px;
@@ -407,9 +387,9 @@ img {
 
 .registration-page {
     background-image: url(assets/pantai6.jpg);
-    background-attachment: fixed; /* Menjaga background image tetap di tempat */
-    background-size: cover; /* Agar background image mengisi seluruh elemen */
-    background-position: center; /* Memposisikan background image di tengah */
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center; 
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -417,6 +397,7 @@ img {
     padding: 20px;
 }
 
+/* Form */
 .form-control {
     background-color: #f8f9fa;
     border: none;
@@ -460,15 +441,15 @@ img {
 
 .btn-primary {
     display: block;
-    width: 100%; /* Membuat tombol memanjang seukuran dengan side update */
-    padding: 10px 20px; /* Sesuaikan padding sesuai kebutuhan */
-    text-align: center; /* Posisikan teks di tengah */
-    background-color: #007BFF; /* Warna latar belakang tombol */
-    color: white; /* Warna teks */
-    border-radius: 5px; /* Membuat sudut tombol menjadi bulat */
-    text-decoration: none; /* Menghilangkan garis bawah pada link */
-    margin-top: 20px; /* Memberi jarak antara tombol dan elemen di atasnya */
-    font-size: 16px; /* Ukuran font */
+    width: 100%; 
+    padding: 10px 20px; 
+    text-align: center; 
+    background-color: #007BFF; 
+    color: white; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    margin-top: 20px; 
+    font-size: 16px; 
 }
 
 .btn-primary:hover {
