@@ -90,7 +90,7 @@
 
 /* Custom Styles */
 .hero {
-    background: url('images/pantai5.jpg') no-repeat center center;
+    background: url('assets/pantai5.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
@@ -136,7 +136,7 @@
 
 /* Tentang Program Section */
 .tentang-program {
-    background: url('images/pantai3.jpg') no-repeat center center/cover;
+    background: url('assets/pantai3.jpg') no-repeat center center/cover;
     color: white;
     position: relative;
     z-index: 1;
@@ -220,7 +220,7 @@
 }
 
 #detiktravel-update {
-    background: url('images/pantai1.jpg') no-repeat center center/cover;
+    background: url('assets/pantai1.jpg') no-repeat center center/cover;
     position: relative;
     z-index: 1;
     padding: 5rem 0;
@@ -406,7 +406,7 @@ img {
 }
 
 .registration-page {
-    background-image: url(images/pantai6.jpg);
+    background-image: url(assets/pantai6.jpg);
     background-attachment: fixed; /* Menjaga background image tetap di tempat */
     background-size: cover; /* Agar background image mengisi seluruh elemen */
     background-position: center; /* Memposisikan background image di tengah */
